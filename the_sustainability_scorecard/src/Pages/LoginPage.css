@@ -1,0 +1,61 @@
+.login-page {
+
+}
+
+.logo-section {
+    background-color: #456E1D;
+    width: 100vw;
+    height: 49.8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 30px 30px;
+}
+
+.logo {
+    height: 30.3vh;
+    width: 48.9vw;
+    object-fit: contain;
+}
+
+.login-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-section input {
+    border: none;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: row;
+    border: #456E1D 1px solid;
+    margin: 13vw 13vw 0 13vw;
+    border-radius: 5px;
+    width: 73.95vw;
+}
+
+.user-logo, .password-logo {
+    padding: 14px;
+    width: 5vw;
+    height: auto;
+}
+
+.login-section button {
+    background: #456E1D;
+    color: #fff;
+    border-radius: 5px;
+    height: 4.7vh;
+    width: 39.5vw;
+
+    margin-top: 4vh;
+}
+
+.login-section a {
+    color: #456E1D;
+    margin-top: 1.6vh;
+}
