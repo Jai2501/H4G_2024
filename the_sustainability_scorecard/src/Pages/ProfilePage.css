@@ -1,0 +1,98 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    background-color: #F4F3EE;
+    margin-bottom: 7vh;
+}
+
+.top-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.top-bar img {
+    height: 24px;
+    margin: 6px;
+}
+
+.top-bar p {
+    margin: 0px;
+}
+
+.name-card {
+    background-color: #fff;
+    padding: 35px 19px 27px 19px;
+    display: flex;
+}
+
+.profile-picture img {
+    height: 69px;
+}
+
+.name-and-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 19px;
+}
+
+.name {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.title {
+    font-size: 12px;
+}
+
+.challenges-completed, .badges-obtained {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #456E1D;
+
+    margin: 0 6px 0 12px;
+}
+
+.number-of-challenges, .number-of-badges  {
+    font-size: 50px;
+}
+
+.challenges-word, .badges-word {
+    font-size: 12px;
+}
+
+.scan-qr-code {
+    display: flex;
+    flex-direction: row;
+    color: #456E1D;
+    background-color: #fff;
+
+    align-items: center;
+
+    font-size: 16px;
+}
+
+.scan-qr-code img {
+   height: 16px;
+   margin: 13px;
+}
+
+.completed-challenges-heading, .activities-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 18px;
+}
+
+.completed-challenges-keyword, .see-all-keyword {
+    font-size: 16px;
+}
+
+.see-all-keyword {
+    color: #456E1D;
+}
+

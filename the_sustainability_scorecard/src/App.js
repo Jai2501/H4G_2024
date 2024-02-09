@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import LoginPage from "./Pages/LoginPage";
 import Dashboard from "./Pages/Dashboard";
 import UploadPage from "./Pages/UploadPage";
+import ProfilePage from "./Pages/ProfilePage";
 
 function App() {
   // const location = useLocation();
@@ -39,6 +40,7 @@ function App() {
           <Route path="/login" element={<LoginPage />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/upload" element={<UploadPage />} />
+          <Route path="/profile" element={<ProfilePage />} />
 
           <Route path="*" element={<p>Error 404! Page Not Found</p>} />
         </Routes>
