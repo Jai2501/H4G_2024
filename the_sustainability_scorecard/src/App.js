@@ -7,6 +7,8 @@ import LoginPage from "./Pages/LoginPage";
 import Dashboard from "./Pages/Dashboard";
 import UploadPage from "./Pages/UploadPage";
 import ProfilePage from "./Pages/ProfilePage";
+import RanksPage from "./Pages/RanksPage";
+import BadgesPage from "./Pages/BadgesPage";
 
 function App() {
   // const location = useLocation();
@@ -41,6 +43,8 @@ function App() {
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/upload" element={<UploadPage />} />
           <Route path="/profile" element={<ProfilePage />} />
+          <Route path="/ranks" element={<RanksPage />} />
+          <Route path="/badges" element={<BadgesPage />} />
 
           <Route path="*" element={<p>Error 404! Page Not Found</p>} />
         </Routes>
