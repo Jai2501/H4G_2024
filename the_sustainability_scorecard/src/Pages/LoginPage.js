@@ -34,7 +34,7 @@ function LoginPage() {
             alt="PasswordLogo"
             className="password-logo"
           ></img>
-          <input placeholder="Password"></input>
+          <input type="password" placeholder="Password"></input>
         </div>
         <button onClick={navigateToAnotherPage}>Log In</button>
         <a href="forgot">Forgot Password</a>
