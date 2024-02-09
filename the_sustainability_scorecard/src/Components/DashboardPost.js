@@ -15,6 +15,7 @@ function DashboardPost({
   badgeUrl,
   badgeInfo,
   uploadedPictureUrl,
+  postCategory,
 }) {
   return (
     <div className="dashboard-post">
@@ -24,6 +25,7 @@ function DashboardPost({
           <div className="name-location-time">
             <div className="name">{name}</div>
             <div className="time-location">
+              <img src={postCategory} alt="catgory"></img>
               {time} · {location}
             </div>
           </div>
