@@ -34,7 +34,7 @@ function Dashboard() {
       postCategory: "PostCategories/EventCategory.png",
     },
     {
-      name: "Vibhusha",
+      name: "Vibhusha Selvam",
       time: "Today at 11:41 AM",
       location: "Jurong",
       profilePictureUrl: "ProfilePictureAssets/GirlOne.jpeg",
@@ -47,7 +47,7 @@ function Dashboard() {
       postCategory: "PostCategories/EventCategory.png",
     },
     {
-      name: "Jai",
+      name: "Jai Lulla",
       time: "Today at 11:41 AM",
       location: "Kent Ridge",
       profilePictureUrl: "ProfilePictureAssets/BoyFour.jpeg",
