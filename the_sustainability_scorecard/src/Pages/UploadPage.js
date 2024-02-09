@@ -12,6 +12,10 @@ function UploadPage() {
     "Recycling",
     "Cleanup",
     "Farming",
+    "Transport",
+    "Consumption",
+    "Home Improvement",
+    "Events",
     "Best Out Of Waste",
   ];
   const defaultOption = options[0];
