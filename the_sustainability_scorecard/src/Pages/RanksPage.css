@@ -1,0 +1,6 @@
+.rank-page-image {
+    display: flex;
+    background: #F4F3EE;
+    object-fit: cover;
+    width: 100vw;
+}
