@@ -1,0 +1,30 @@
+.dashboard-navigation-bar {
+    background-color: #456E1D;
+    color: #fff;
+    height: 5.8vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    z-index: 100;
+
+    top: 0;
+    position: fixed;
+}
+
+.left-side, .right-side {
+    margin: 0 15px;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: row;
+}
+
+.dashboard-navbar-icon {
+    height: 24px;
+    width: 24px;
+    padding: 0 0 0 15px;
+}
