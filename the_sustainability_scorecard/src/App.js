@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 
 import LoginPage from "./Pages/LoginPage";
 import Dashboard from "./Pages/Dashboard";
+import UploadPage from "./Pages/UploadPage";
 
 function App() {
   // const location = useLocation();
@@ -36,9 +37,10 @@ function App() {
             }
           />
           <Route path="/login" element={<LoginPage />} />
-
           <Route path="/dashboard" element={<Dashboard />} />
-          <Route path="*" element={<p>404!</p>} />
+          <Route path="/upload" element={<UploadPage />} />
+
+          <Route path="*" element={<p>Error 404! Page Not Found</p>} />
         </Routes>
       </BrowserRouter>
       {/* {showBottomNav && <BottomTabBar />} */}
