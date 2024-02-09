@@ -1,0 +1,101 @@
+.dashboard-post {
+    margin-top: 1.8vh;
+    background: #fff;
+}
+
+.info-section, .post-details {
+    padding: 12px;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+}
+
+.info img {
+    height: 35px;
+    width: 35px;
+}
+
+.settings img {
+    width: 4px;
+    height: 16px;
+}
+
+.name-location-time {
+    padding: 0 10px;
+}
+
+.name {
+    font-size: 16px;
+}
+
+.time-location {
+    color: #8E9192;
+    font-size: 12px;
+}
+
+.post-heading {
+    font-size: 16px;
+}
+
+.post-content {
+    font-size: 12px;
+}
+
+.challenge-info {
+    display: flex;
+    flex-direction: row;
+    background-color: #DFFFBF;
+    font-size: 12px;
+    align-items: center;
+
+    margin: 12px;
+}
+
+.challenge-info img {
+    width: 40px;
+    height: 24px;
+    margin: 6px;
+}
+
+.post-picture img {
+    object-fit: contain;
+    /* height: 26.7vh; */
+    width: 100%;
+}
+
+.post-like-comment-share {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    width: 100%;
+
+    background-color: #F9F8F4;
+}
+
+.post-like, .post-comment, .post-share {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    border-right: 1px solid #000;
+
+    margin: 10px 0;
+}
+
+.post-share {
+    border-right: none;
+}
+
+.post-like-comment-share img {
+    height: 24px;
+    width: 24px;
+}

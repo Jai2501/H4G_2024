@@ -1,6 +1,8 @@
 .bottom-tab-bar {
     border: 1px solid grey;
     width: 100vw;
+
+    background-color: #fff;
     
     position: fixed;
     bottom: 0;
