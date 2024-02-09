@@ -18,6 +18,7 @@ function ProfilePage() {
       badgeUrl: "DashboardPostAssets/BadgeIcon.png",
       badgeInfo: "John completed the Recycling Race challenge!",
       uploadedPictureUrl: "DashboardPostAssets/PostPicture.png",
+      postCategory: "PostCategories/RecycleCategory.png",
     },
   ];
 
@@ -86,6 +87,7 @@ function ProfilePage() {
             badgeUrl={item.badgeUrl}
             badgeInfo={item.badgeInfo}
             uploadedPictureUrl={item.uploadedPictureUrl}
+            postCategory={item.postCategory}
           />
         ))}
       </div>

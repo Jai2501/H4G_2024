@@ -18,6 +18,7 @@ function Dashboard() {
       badgeUrl: "ChallengesAssets/CarFreeWeekChallenge.png",
       badgeInfo: "John completed the Car-Free Week challenge!",
       uploadedPictureUrl: "PostPictureAssets/Transport.jpeg",
+      postCategory: "PostCategories/TransportCategory.png",
     },
     {
       name: "Gareth Wang",
@@ -30,6 +31,7 @@ function Dashboard() {
       badgeUrl: "DashboardPostAssets/BadgeIcon.png",
       badgeInfo: "Gareth started the Recycling Race challenge!",
       uploadedPictureUrl: "PostPictureAssets/GUI.jpeg",
+      postCategory: "PostCategories/EventCategory.png",
     },
     {
       name: "Vibhusha",
@@ -42,6 +44,7 @@ function Dashboard() {
       badgeUrl: "ChallengesAssets/ReusableRevolutionChallenge.png",
       badgeInfo: "Vibhusha completed the Conservation Champion challenge!",
       uploadedPictureUrl: "PostPictureAssets/RiverCleanup.jpeg",
+      postCategory: "PostCategories/EventCategory.png",
     },
     {
       name: "Jai",
@@ -54,6 +57,7 @@ function Dashboard() {
       badgeUrl: "ChallengesAssets/CompostingChampionChallenge.png",
       badgeInfo: "Jai completed the Composting Champion challenge!",
       uploadedPictureUrl: "PostPictureAssets/Garden.jpg",
+      postCategory: "PostCategories/HomeCategory.png",
     },
   ];
 
@@ -73,6 +77,7 @@ function Dashboard() {
           badgeUrl={item.badgeUrl}
           badgeInfo={item.badgeInfo}
           uploadedPictureUrl={item.uploadedPictureUrl}
+          postCategory={item.postCategory}
         />
       ))}
 
