@@ -11,7 +11,7 @@ function ProfilePage() {
       name: "John Tan",
       time: "Today at 7:38 AM",
       location: "Southwest",
-      profilePictureUrl: "DashboardPostAssets/ProfileIcon.png",
+      profilePictureUrl: "ProfilePictureAssets/BoyFive.avif",
       heading: "Recycled my kitchen waste",
       content:
         "Attended GUI’s workshop on recycling last weekend and felt like it’s about time I put thought into action!",
@@ -32,7 +32,7 @@ function ProfilePage() {
       </div>
       <div className="name-card">
         <div className="profile-picture">
-          <img src="DashboardPostAssets/ProfileIcon.png" alt="profile"></img>
+          <img src="ProfilePictureAssets/BoyFive.avif" alt="profile"></img>
         </div>
         <div className="name-and-title">
           <div className="name">John Tan</div>
