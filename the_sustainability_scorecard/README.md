@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# Getting Started with the Community Scorecard App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Starting the web app
 
-In the project directory, you can run:
+Clone or Download this Repository and Navigate to
+`the_sustainability_scorecard` directory.
 
-### `npm start`
+### Preferred Browser: `Chrome`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Launch Chrome
+- Right Click and Select `Inspect` or simply click on `F12` key to open inspect element window.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![alt text](image-1.png)
 
-### `npm test`
+- Click on the `Toggle Device Toolbar` Button (Shown as 1 in the picture)
+- Select `iPhone 12 Pro` or equivalent from the dropdown menu shown on selecting the `dimensions` option (Shown as 2 in Picture)
+  ![alt text](image.png)
+- Reason: The app is optimised for Mobile View and is simulating a Mobile App. For quick prototyping purposes, it was created using React.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Command Line / Terminal Window
 
-### `npm run build`
+- Open a Command Line / Terminal Window and Navigate into the `the_sustainability_scorecard` directory.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Command: `npm install`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Run the above command in Command Line / Terminal to install the relevant dependencies required by the app to run.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Command: `npm start`
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- In the same Command Line / Terminal Window, run the above command.
+- This runs the web app.
+- Open [http://localhost:3000](http://localhost:3000) to view it in your browser (Please resize to `iPhone 12 Pro` or equivalent view port for best viewing experience).
