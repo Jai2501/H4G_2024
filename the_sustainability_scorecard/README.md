@@ -1,4 +1,4 @@
-# Getting Started with the Community Scorecard App
+# Getting Started with the Sustainability Scorecard App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
