@@ -5,6 +5,9 @@
 - Dashboard with Sustainabot (AI Chatbot)
 ![Alt text](./preview/dashboard.png)
 
+- List of Challenges
+![Alt text](./preview/challenges.png)
+
 
 #How to Start this App?
 
