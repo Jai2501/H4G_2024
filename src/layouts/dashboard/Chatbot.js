@@ -32,11 +32,21 @@ function Chatbot() {
     // Check if the user is querying the number of signups for a specific challenge
     if (message.toLowerCase().includes("which challenge has the most signups")) {
       // Simulate an API response with the number of signups (150 in this case)
-      const responseMessage = "Wildlife Preservation Society has 150 signups";
+      const responseMessage = "Recyling Race";
       
       // Add the response to the message list
       setMessages([...newMessages, { message: responseMessage, sender: "ChatGPT" }]);
-    } else {
+    } 
+    
+    if (message.toLowerCase().includes("What is most popular category?")) {
+      // Simulate an API response with the number of signups (150 in this case)
+      const responseMessage = "Activities that involve recycling are the most popular as 30% of the campaigns done by volunteers fall under this, closely followed by Home Improvement at 25%. ";
+      
+      // Add the response to the message list
+      setMessages([...newMessages, { message: responseMessage, sender: "ChatGPT" }]);
+    } 
+    
+    else {
       // If the query is not related to signups, proceed with processing the message to ChatGPT
       setIsTyping(true);
       await processMessageToChatGPT(newMessages);
