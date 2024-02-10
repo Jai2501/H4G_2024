@@ -6,13 +6,18 @@
 ![Alt text](./preview/dashboard.png)
 
 
-## Available Scripts
+#How to Start this App?
 
 In the root directory of the project, you can run this commands on terminal:
 ### `npm install`
 ### `npm start`
 
-## Technologies
+## Login Credentials
+***
+Admin have all access:
+* ##### `Admin Panel/admin`: email=admin@123.com, password=admin123
+
+## Key Technologies
 ***
 A list of technologies used within the project:
 * node v16.16.0
@@ -21,7 +26,4 @@ A list of technologies used within the project:
 * cloud firestore for database
 * complete role base authentication, authorization and protected all routes
 
-## Login Credentials
-***
-Admin have all access:
-* ##### `Admin Panel/admin`: email=admin@123.com, password=admin123
+
