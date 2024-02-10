@@ -11,6 +11,9 @@
 - - - from the `Challenges` page, by clicking on `Add Challenge` button, user can create new challenges for volunteers as follows
 ![Alt text](./preview/addChallenge.png)
 
+- - - from the `Challenges` page, by clicking on `Detail` button, user can view details of each challenge and edit/delete them.
+![Alt text](./preview/ed.png)
+
 
 #How to Start this App?
 
