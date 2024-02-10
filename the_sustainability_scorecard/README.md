@@ -32,3 +32,8 @@ Clone or Download this Repository and Navigate to
 - In the same Command Line / Terminal Window, run the above command.
 - This runs the web app.
 - Open [http://localhost:3000](http://localhost:3000) to view it in your browser (Please resize to `iPhone 12 Pro` or equivalent view port for best viewing experience).
+- If all is set-up correctly, you would see this page.
+
+### For the purpose of demo, the following credentials can be used
+- Username: johntan@gmail.com
+- Password: 12345678
