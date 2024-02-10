@@ -1,3 +1,7 @@
+##Preview 
+- Dashboard with Sustainabot (AI Chatbot)
+![Uploading image.png…]()
+
 ## Available Scripts
 
 In the root directory of the project, you can run this commands on terminal:
