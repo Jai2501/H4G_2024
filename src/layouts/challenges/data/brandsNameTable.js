@@ -59,6 +59,10 @@ function Data() {
     </MDBox>
   );
 
+  const getRandomInt = (min, max) => {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+  };
+
   return {
     columns: [
       { Header: "SR NO#", accessor: "srNo", width: '10%', align: "left" },
@@ -70,6 +74,7 @@ function Data() {
       return ({
         srNo: <SR_NO srNo={index + 1} />,
         brands: <BRAND_NAME id={items.id} image={items.logo} name={items.name} participants={items.participants} />,
+        participants: getRandomInt(50, 100),
         action: <Link to={`/admin/brands/detail/${items.id}`}><MDButton variant="gradient" color="info" size="small">Detail</MDButton></Link>,
       });
     })],
