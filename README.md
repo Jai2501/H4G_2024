@@ -14,6 +14,9 @@
 - - - from the `Challenges` page, by clicking on `Detail` button, user can view details of each challenge and edit/delete them.
 ![Alt text](./preview/ed.png)
 
+- Inbox to facilitate easy communication between GUI and volunteer queries
+![Alt text](./preview/inbox.png)
+
 
 #How to Start this App?
 
