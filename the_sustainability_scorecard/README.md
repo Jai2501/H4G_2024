@@ -34,6 +34,9 @@ Clone or Download this Repository and Navigate to
 - Open [http://localhost:3000](http://localhost:3000) to view it in your browser (Please resize to `iPhone 12 Pro` or equivalent view port for best viewing experience).
 - If all is set-up correctly, you would see this page.
 
+![alt text](image-2.png)
+
 ### For the purpose of demo, the following credentials can be used
+
 - Username: johntan@gmail.com
-- Password: 12345678
+- Password: SamplePassword1
