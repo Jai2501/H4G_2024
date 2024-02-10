@@ -3,6 +3,7 @@
 ![Alt text](./preview/login.png)
   
 - Dashboard with Sustainabot (AI Chatbot)
+- for the openAI API, as the github repository has been made public, please generator your own API key from OpenAI and substitute it in the ./src/layouts/dashboard/Chatbox.js
 ![Alt text](./preview/dashboard.png)
 
 - List of Challengesss
