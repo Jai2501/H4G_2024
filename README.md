@@ -8,7 +8,7 @@
 - List of Challengesss
 ![Alt text](./preview/challenges.png)
 
-- - from this page, by clicking on `Add Challenge` button, user can create new challenges for volunteers as follows
+- - - from the #### Challenges page, by clicking on `Add Challenge` button, user can create new challenges for volunteers as follows
 ![Alt text](./preview/addChallenge.png)
 
 
