@@ -1,6 +1,7 @@
 ##Preview 
 - Dashboard with Sustainabot (AI Chatbot)
-![Uploading image.png…]()
+![Alt text](./preview/dashboard.png)
+
 
 ## Available Scripts
 
