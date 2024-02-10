@@ -1,59 +1,23 @@
 import { useMemo } from "react";
-
-// porp-types is a library for typechecking of props
 import PropTypes from "prop-types";
-
-// react-chartjs-2 components
-import { Bar } from "react-chartjs-2";
-
-// @mui material components
+import { Doughnut } from "react-chartjs-2";
 import Card from "@mui/material/Card";
 import Divider from "@mui/material/Divider";
 import Icon from "@mui/material/Icon";
-
-// Admin Panel React components
 import MDBox from "components/MDBox";
 import MDTypography from "components/MDTypography";
+import configs from "examples/Charts/PieCharts/configs"; // Assuming you have configurations for PieChart
 
-// ReportsBarChart configurations
-import configs from "examples/Charts/BarCharts/ReportsBarChart/configs";
-
-function ReportsBarChart({ color, title, description, date, chart, xAxisTitle, yAxisTitle }) {
+function ReportsPieChart({ color, title, description, date, chart, xAxisTitle, yAxisTitle }) {
   const { data, options } = configs(chart.labels || [], chart.datasets || {});
 
-  options.scales = {
-    x: {
-      title: {
-        display: true,
-        text: xAxisTitle,
-        color: 'black', // Color of the axis title text
-        font: {
-          size: 10,       // Font size of the axis title
-          weight: 'bold', // Font weight of the axis title
-        },
-      },
-      ticks: {
-        color: 'black', // Color of the tick labels on the X-axis
-        display: true
-      },
-    },
-    y: {
-      title: {
-        display: true,
-        text: yAxisTitle,
-        color: 'black',
-        font: {
-          size: 10,
-          weight: 'bold',
-        },
-      },
-      ticks: {
-        color: 'black', // Color of the tick labels on the Y-axis
-        display: true
-      },
-    },
+  // Clone the options object before modifying it
+  const modifiedOptions = { ...options };
+
+  // Add axis titles to the options object
+  modifiedOptions.plugins.legend = {
+    display: true, // Set to false to hide the legend
   };
-  
 
   return (
     <Card sx={{ height: "100%" }}>
@@ -70,11 +34,10 @@ function ReportsBarChart({ color, title, description, date, chart, xAxisTitle, y
               mt={-5}
               height="12.5rem"
             >
-              <Bar data={data} options={options} />
+              <Doughnut data={data} options={modifiedOptions} />
             </MDBox>
           ),
-          [color, data, options]
-          // eslint-disable-next-line
+          [color, data, modifiedOptions]
         )}
         <MDBox pt={3} pb={1} px={1}>
           <MDTypography variant="h6" textTransform="capitalize">
@@ -98,21 +61,19 @@ function ReportsBarChart({ color, title, description, date, chart, xAxisTitle, y
   );
 }
 
-// Setting default values for the props of ReportsBarChart
-ReportsBarChart.defaultProps = {
+ReportsPieChart.defaultProps = {
   color: "dark",
   description: "",
 };
 
-// Typechecking props for the ReportsBarChart
-ReportsBarChart.propTypes = {
+ReportsPieChart.propTypes = {
   color: PropTypes.oneOf(["primary", "secondary", "info", "success", "warning", "error", "dark","#FFFFFF"]),
   title: PropTypes.string.isRequired,
   description: PropTypes.oneOfType([PropTypes.string, PropTypes.node]),
   date: PropTypes.string.isRequired,
   chart: PropTypes.objectOf(PropTypes.oneOfType([PropTypes.array, PropTypes.object])).isRequired,
-  xAxisTitle: PropTypes.string, // Add PropTypes for xAxisTitle
-  yAxisTitle: PropTypes.string, // Add PropTypes for yAxisTitle
+  xAxisTitle: PropTypes.string,
+  yAxisTitle: PropTypes.string,
 };
 
-export default ReportsBarChart;
+export default ReportsPieChart;

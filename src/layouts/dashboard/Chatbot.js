@@ -91,13 +91,13 @@ function Chatbot() {
 
   return (
     <div className="App">
-      <div style={{ position:"relative", height: "25vh", width: "750px"  }}>
+      <div style={{ position:"relative", height: "15vh", width: "750px"  }}>
       <h4>Sustainabot</h4>
         <MainContainer>
           <ChatContainer>       
             <MessageList 
               scrollBehavior="smooth" 
-              typingIndicator={isTyping ? <TypingIndicator content="ChatGPT is typing" /> : null}
+              typingIndicator={isTyping ? <TypingIndicator content="Sustainabot is typing" /> : null}
             >
               {messages.map((message, i) => {
                 console.log(message)

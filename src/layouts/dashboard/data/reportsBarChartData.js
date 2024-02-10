@@ -1,5 +1,5 @@
  const exportedObject ={
-  labels: ["M", "T", "W", "T", "F", "S", "S"],
-  datasets: { label: "Sales", data: [50, 20, 10, 22, 50, 10, 40] },
+  labels: ["1", "2", "3", "4", "5"],
+  datasets: { label: "Sales", data: [125, 151, 185, 145, 148] },
 };
 export default exportedObject 

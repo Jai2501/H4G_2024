@@ -1,4 +1,4 @@
-function configs(labels, datasets) {
+function configs(labels, datasets, xAxisTitle, yAxisTitle) {
   return {
     data: {
       labels,
@@ -9,9 +9,9 @@ function configs(labels, datasets) {
           borderWidth: 0,
           borderRadius: 4,
           borderSkipped: false,
-          backgroundColor: "rgba(255, 255, 255, 0.8)",
+          backgroundColor: "green",
           data: datasets.data,
-          maxBarThickness: 6,
+          maxBarThickness: 40,
         },
       ],
     },
@@ -29,6 +29,15 @@ function configs(labels, datasets) {
       },
       scales: {
         y: {
+          title: {
+            display: true,
+            text: yAxisTitle || "No. of Posts Uploaded", // Use provided title or an empty string if not provided
+            font: {
+              size: 16,
+              weight: 'bold',
+            },
+            color: '#fff',
+          },
           grid: {
             drawBorder: false,
             display: true,
@@ -53,6 +62,15 @@ function configs(labels, datasets) {
           },
         },
         x: {
+          title: {
+            display: true,
+            text: xAxisTitle || "Days since last GUI Activity", // Use provided title or an empty string if not provided
+            font: {
+              size: 16,
+              weight: 'bold',
+            },
+            color: '#fff',
+          },
           grid: {
             drawBorder: false,
             display: true,

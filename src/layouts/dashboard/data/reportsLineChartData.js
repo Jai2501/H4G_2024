@@ -1,12 +1,15 @@
 
 const exportedObject2 = {
-  sales: {
-    labels: ["Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
-    datasets: { label: "Mobile apps", data: [50, 40, 300, 320, 500, 350, 200, 230, 500] },
-  },
-  tasks: {
-    labels: ["Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
-    datasets: { label: "Desktop apps", data: [50, 40, 300, 220, 500, 250, 400, 230, 500] },
+  labels: ["Events/Activities", "Transport", "Consumption","Home Improvement", "Recycling"],
+  datasets: {
+    data: [20, 15, 10, 25, 30], // Example data for each category
+    backgroundColor: [
+      "#C8E6C9", // Lightest shade
+      "#A5D6A7",
+      "#81C784",
+      "#66BB6A",
+      "#4CAF50", // Darkest shade
+    ], // Example background colors for each category
   },
 };
 export default exportedObject2 
