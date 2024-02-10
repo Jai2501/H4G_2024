@@ -18,7 +18,7 @@
 ![Alt text](./preview/inbox.png)
 
 
-#How to Start this App?
+## How to Start this App?
 
 In the root directory of the project, you can run this commands on terminal:
 ### `npm install`
